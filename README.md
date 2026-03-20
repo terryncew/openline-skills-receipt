@@ -62,7 +62,7 @@ cd openline-skills-receipt
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python openline_receipt.py examples/example-skill/SKILL.md
+python openline_receipt\4.py examples/example-skill/SKILL.md
 ```
 
 That demo creates a two-step receipt chain and writes receipt JSON files into `./receipts`.
